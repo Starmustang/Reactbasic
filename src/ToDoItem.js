@@ -1,9 +1,9 @@
-function ToDoItem()
+function ToDoItem(props)
 {
   return (
     <li>
-      <span>V</span>
-      <p>Terminar este curso</p>
+      <span>v {props.completado}</span>
+      <p>{props.Text}</p>
       <span>X</span>
     </li>
   );
