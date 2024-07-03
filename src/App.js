@@ -10,16 +10,16 @@ import './ToDoList.css';
 const defaultToDos =[
   {Text: 'Cortar cebolla', completado: true},
   {Text: 'Dormir', completado: false},
-  {Text: 'comer', completado: true},
+  {Text: 'comer', completado: false},
   {Text: 'caminar', completado: false},
-  {Text: 'Chatear', completado: true},
+  {Text: 'Chatear', completado: false},
 ];
 
 
 function App() {
   return (
     
-      <div className="lista">
+      <div>
       <ToDoCounter completado={19} total={71}/>
 
       <ToDoBusqueda/>

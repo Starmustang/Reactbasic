@@ -1,10 +1,11 @@
+import './ToDoList.css';
 function ToDoList({children})
 {
   return (
-   <ul>
+   <ul className='lista'>
     {children}
    </ul>
   );
 }
 
-export {ToDoList}
+export {ToDoList};

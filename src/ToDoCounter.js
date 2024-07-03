@@ -3,10 +3,10 @@ import './ToDoCounter.css';
 function ToDoCounter({total, completado})
 {
   return (
-    <h1>
-      Has completado {completado} de {total} Tareas
+    <h1 className='TodoCounter'>
+      Has completado <span>{completado}</span> de <span>{total}</span> Tareas
     </h1>
   );
 }
 
-export {ToDoCounter}
+export {ToDoCounter};
